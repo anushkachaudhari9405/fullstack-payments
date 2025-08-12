@@ -1,7 +1,6 @@
 FROM amazoncorretto:17
 
-ADD target/payments-0.0.1-SNAPSHOT.jar app.jar
-
+ADD target/payments-0.0.1-SNAPSHOT.jar
 EXPOSE 8080
 
 ARG DBUSER
